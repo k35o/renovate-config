@@ -1,0 +1,17 @@
+{
+  "name": "renovate-config",
+  "version": "1.0.0",
+  "description": "k8o's renovate config",
+  "repository": "git@github.com:k35o/renovate-config.git",
+  "author": "k35o <k8o@k8o.me>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.16.1",
+  "scripts": {
+    "format": "biome check --write",
+    "test": "renovate-config-validator ./default.json --strict"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.4",
+    "renovate": "41.130.1"
+  }
+}
