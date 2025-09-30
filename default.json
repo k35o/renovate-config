@@ -11,6 +11,7 @@
     "docker:pinDigests",
     "helpers:pinGitHubActionDigests"
   ],
+  "schedule": ["every weekend"],
   "rangeStrategy": "pin",
   "minimumReleaseAge": "7 days",
   "vulnerabilityAlerts": {
