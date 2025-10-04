@@ -12,8 +12,8 @@ importers:
         specifier: 2.2.4
         version: 2.2.4
       renovate:
-        specifier: 41.130.1
-        version: 41.130.1(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 41.131.8
+        version: 41.131.8(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -583,8 +583,8 @@ packages:
     peerDependencies:
       '@redis/client': ^1.0.0
 
-  '@renovatebot/detect-tools@1.1.0':
-    resolution: {integrity: sha512-0GEOOX4QhUBQIY4xsr0g9sb/PrwO3C+uGPsAXlXklTDFnmXenFQ/XcEiQMTLAxPoeHofQCQ79BVCxlDVhcJ8DA==}
+  '@renovatebot/detect-tools@1.2.4':
+    resolution: {integrity: sha512-qKkRWDmwfgPN5vrD6QzMa6UNqb06VXaZL1hxxLFsOauiSTAxz/TVKPhb/hFyf27yu35JyXIN40PiNQR+bidKbQ==}
 
   '@renovatebot/kbpgp@4.0.3':
     resolution: {integrity: sha512-RMj9zekThsU/rCZxY0DeXl4hXU0rJOJm9wrFfLoFJnNsLQO1v2nfkK7sdYiMe/9+i99W/JWCtGDfySxIhC8CmA==}
@@ -616,8 +616,8 @@ packages:
     resolution: {integrity: sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==}
     engines: {node: '>=10'}
 
-  '@sindresorhus/is@7.0.2':
-    resolution: {integrity: sha512-d9xRovfKNz1SKieM0qJdO+PQonjnnIfSNWfHYnBSJ9hkjm0ZPw6HlxscDXYstp3z+7V2GOFHc+J0CYrYTjqCJw==}
+  '@sindresorhus/is@7.1.0':
+    resolution: {integrity: sha512-7F/yz2IphV39hiS2zB4QYVkivrptHHh0K8qJJd9HhuWSdvf8AN7NpebW3CcDZDBQsUPMoDKWsY2WWgW7bqOcfA==}
     engines: {node: '>=18'}
 
   '@smithy/abort-controller@4.1.1':
@@ -925,8 +925,8 @@ packages:
   '@types/yauzl@2.10.3':
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
 
-  '@yarnpkg/core@4.4.3':
-    resolution: {integrity: sha512-PMyCPTsA39Mw4WApfoIpAPnYjSDki7uMGPVYjvTtF5fTKoqxWTJN1toBzxmrFmqonC3sL33e55wgaCrerkzakQ==}
+  '@yarnpkg/core@4.4.4':
+    resolution: {integrity: sha512-0bcUFx4wzq0szvInY0PkzqjsAlM69lgzOsEbltbiyE6q/h0hRb1oOHWSBvq7rUGA+Ob5vuyhoDYWyyXY/1W4VQ==}
     engines: {node: '>=18.12.0'}
 
   '@yarnpkg/fslib@3.1.3':
@@ -966,8 +966,8 @@ packages:
     resolution: {integrity: sha512-TGw5yVi4saajsSEgz25grObGHEUaDrniwvA2qwSC060KfqGPdglhvPMA2lPIoxs3PQIItj2iag35fONcQqgUaQ==}
     engines: {node: '>=12.0'}
 
-  ae-cvss-calculator@1.0.8:
-    resolution: {integrity: sha512-ud8g+BQTSJoeuB4nOnbhu/Fd7TnGEnnr1AYOA+uFaEDQB0IOgjxHA2ds5iOmLh5Os6ziGCJJqjEFOFeWMOVQ4Q==}
+  ae-cvss-calculator@1.0.9:
+    resolution: {integrity: sha512-CTeSR6Cm/cOJQLRNIw3wvRnNUMp9du+qKwH6IAf/DHwgGFsVeoCiuvtH6BWl5gaYVn1RTMBdQmT2D5Ul31Mh5Q==}
 
   agent-base@7.1.4:
     resolution: {integrity: sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==}
@@ -2546,8 +2546,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.130.1:
-    resolution: {integrity: sha512-yXsUppr5Nx4it2RoRHd1jZBs91M9qXiCfuBggqmXDSUcR6oUubqryCB3z4NvRcf5ITAZSWt2ObX+mlUSHBh4cA==}
+  renovate@41.131.8:
+    resolution: {integrity: sha512-pFArK+NdaHT+5BDeP8TyYMaDZt4tV8fm9T7AxR7WcE9vfx29bsvJ/Sm81/Dhg8KXrxJ+39wq8ajlJT2WGsha1w==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4243,7 +4243,7 @@ snapshots:
     dependencies:
       '@redis/client': 1.6.1
 
-  '@renovatebot/detect-tools@1.1.0':
+  '@renovatebot/detect-tools@1.2.4':
     dependencies:
       fs-extra: 11.3.2
       toml-eslint-parser: 0.10.0
@@ -4291,7 +4291,7 @@ snapshots:
 
   '@sindresorhus/is@4.6.0': {}
 
-  '@sindresorhus/is@7.0.2': {}
+  '@sindresorhus/is@7.1.0': {}
 
   '@smithy/abort-controller@4.1.1':
     dependencies:
@@ -4732,7 +4732,7 @@ snapshots:
       '@types/node': 24.5.2
     optional: true
 
-  '@yarnpkg/core@4.4.3(typanion@3.14.0)':
+  '@yarnpkg/core@4.4.4(typanion@3.14.0)':
     dependencies:
       '@arcanis/slice-ansi': 1.1.1
       '@types/semver': 7.7.1
@@ -4802,7 +4802,7 @@ snapshots:
 
   adm-zip@0.5.16: {}
 
-  ae-cvss-calculator@1.0.8: {}
+  ae-cvss-calculator@1.0.9: {}
 
   agent-base@7.1.4: {}
 
@@ -6681,7 +6681,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.130.1(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.131.8(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.879.0
       '@aws-sdk/client-ec2': 3.879.0
@@ -6709,15 +6709,15 @@ snapshots:
       '@opentelemetry/semantic-conventions': 1.37.0
       '@pnpm/parse-overrides': 1001.0.3
       '@qnighy/marshal': 0.1.3
-      '@renovatebot/detect-tools': 1.1.0
+      '@renovatebot/detect-tools': 1.2.4
       '@renovatebot/kbpgp': 4.0.3
       '@renovatebot/osv-offline': 1.6.11
       '@renovatebot/pep440': 4.2.1
       '@renovatebot/ruby-semver': 4.1.2
-      '@sindresorhus/is': 7.0.2
-      '@yarnpkg/core': 4.4.3(typanion@3.14.0)
+      '@sindresorhus/is': 7.1.0
+      '@yarnpkg/core': 4.4.4(typanion@3.14.0)
       '@yarnpkg/parsers': 3.0.3
-      ae-cvss-calculator: 1.0.8
+      ae-cvss-calculator: 1.0.9
       agentkeepalive: 4.6.0
       async-mutex: 0.5.0
       auth-header: 1.0.0
