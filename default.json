@@ -16,12 +16,5 @@
   ],
   "rangeStrategy": "pin",
   "minimumReleaseAge": "7 days",
-  "vulnerabilityAlerts": {
-    "enabled": true,
-    "labels": [
-      "security"
-    ]
-  },
-  "osvVulnerabilityAlerts": true,
   "internalChecksFilter": "strict"
 }
