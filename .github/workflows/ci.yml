@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@c2d88d3ecc89a9ef08eebf45d9637801dcee7eb5
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061
+        uses: pnpm/action-setup@1e1c8eafbd745f64b1ef30a7d7ed7965034c486c
 
       - name: Setup Node.js
         uses: actions/setup-node@b9b25d45f70a5d94d88496aa4896bf9ed8f49b67
