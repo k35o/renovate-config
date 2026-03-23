@@ -9,7 +9,8 @@
     "group:allNonMajor",
     "schedule:automergeWeekends",
     "docker:pinDigests",
-    "helpers:pinGitHubActionDigests"
+    "helpers:pinGitHubActionDigests",
+    "helpers:pinGitHubActionDigestsToSemver"
   ],
   "schedule": [
     "every weekend"
