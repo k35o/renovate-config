@@ -16,6 +16,6 @@
     "every weekend"
   ],
   "rangeStrategy": "pin",
-  "minimumReleaseAge": "7 days",
+  "minimumReleaseAge": "3 days",
   "internalChecksFilter": "strict"
 }
