@@ -6,6 +6,9 @@
   "author": "k35o <k8o@k8o.me>",
   "license": "MIT",
   "packageManager": "pnpm@10.33.3",
+  "volta": {
+    "node": "26.1.0"
+  },
   "scripts": {
     "format": "biome check --write",
     "test": "renovate-config-validator ./default.json --strict"
