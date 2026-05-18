@@ -1,15 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended",
+    "config:best-practices",
     ":label(renovate)",
     ":reviewer(k35o)",
     ":timezone(Asia/Tokyo)",
     ":pinAllExceptPeerDependencies",
     "group:allNonMajor",
     "schedule:automergeWeekends",
-    "docker:pinDigests",
-    "helpers:pinGitHubActionDigests",
     "helpers:pinGitHubActionDigestsToSemver"
   ],
   "schedule": [
