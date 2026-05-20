@@ -7,13 +7,16 @@
     ":timezone(Asia/Tokyo)",
     ":pinAllExceptPeerDependencies",
     "group:allNonMajor",
-    "schedule:automergeWeekends",
     "helpers:pinGitHubActionDigestsToSemver"
-  ],
-  "schedule": [
-    "every weekend"
   ],
   "rangeStrategy": "pin",
   "minimumReleaseAge": "7 days",
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": [
+      "security"
+    ]
+  },
+  "osvVulnerabilityAlerts": true,
   "internalChecksFilter": "strict"
 }
