@@ -21,7 +21,9 @@
   "internalChecksFilter": "strict",
   "packageRules": [
     {
-      "matchDatasources": ["npm"],
+      "matchDatasources": [
+        "npm"
+      ],
       "minimumReleaseAge": "7 days"
     }
   ]
