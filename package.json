@@ -5,16 +5,16 @@
   "repository": "git@github.com:k35o/renovate-config.git",
   "author": "k35o <k8o@k8o.me>",
   "license": "MIT",
-  "packageManager": "pnpm@11.19.0",
+  "packageManager": "pnpm@11.20.0",
   "volta": {
-    "node": "26.6.0"
+    "node": "26.7.0"
   },
   "scripts": {
     "format": "biome check --write",
     "test": "renovate-config-validator ./default.json --strict"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.6",
-    "renovate": "44.7.2"
+    "@biomejs/biome": "2.5.7",
+    "renovate": "44.14.3"
   }
 }
