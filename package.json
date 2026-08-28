@@ -14,7 +14,7 @@
     "test": "renovate-config-validator ./default.json --strict"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.9",
-    "renovate": "44.37.1"
+    "@biomejs/biome": "2.5.10",
+    "renovate": "44.39.1"
   }
 }
