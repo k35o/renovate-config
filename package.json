@@ -7,7 +7,7 @@
   "license": "MIT",
   "packageManager": "pnpm@11.24.0",
   "volta": {
-    "node": "26.7.0"
+    "node": "26.8.1"
   },
   "scripts": {
     "format": "biome check --write",
@@ -15,6 +15,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.10",
-    "renovate": "44.41.1"
+    "renovate": "44.46.4"
   }
 }
