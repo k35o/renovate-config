@@ -26,6 +26,13 @@
         "npm"
       ],
       "minimumReleaseAge": "7 days"
+    },
+    {
+      "description": "k35o/pavo は自分のリポジトリで、main に数日おきにコミットが入る。digest の pin に待機期間を置くと最新の digest が7日を超えず、呼び出し側の pin が上がらない",
+      "matchPackageNames": [
+        "k35o/pavo"
+      ],
+      "minimumReleaseAge": null
     }
   ]
 }
